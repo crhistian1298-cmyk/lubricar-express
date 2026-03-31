@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>FullMotor Servicio a Domicilio</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        color: white;
+        text-align: center;
+
+        background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+        url('fondo.jpg');
+        
+        background-size: cover;
+        background-position: center;
+    }
+
+    .container {
+        padding: 50px;
+    }
+
+    h1 {
+        font-size: 42px;
+        color: #00aaff;
+    }
+
+    h2 {
+        color: #ffd700;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    ul li {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 15px 25px;
+        background: #25D366;
+        color: white;
+        font-size: 18px;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+
+    .btn:hover {
+        background: #1ebe5d;
+    }
+
+    /* 🔥 PROMOCIÓN */
+    .promo {
+        margin-top: 30px;
+        padding: 20px;
+        background: rgba(0, 170, 255, 0.2);
+        border: 2px solid #00aaff;
+        border-radius: 15px;
+        font-size: 20px;
+        color: #00e1ff;
+        font-weight: bold;
+    }
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🚗 FullMotor Servicio a Domicilio 🏍️</h1>
+    <p>Servicio rápido, seguro y hasta la puerta de tu casa</p>
+
+    <!-- 🔥 PROMOCIÓN DESTACADA -->
+    <div class="promo">
+        🎉 PROMOCIÓN ESPECIAL 🎉 <br><br>
+        Con cada cambio de aceite incluimos <br>
+        🚿 LAVADA DE MOTOR GRATIS 🚿
+    </div>
+
+    <h2>🔧 Servicios</h2>
+    <ul>
+        <li>Cambio de aceite para carros</li>
+        <li>Cambio de aceite para motos</li>
+        <li>Cambio de filtros</li>
+        <li>Revisión básica del vehículo</li>
+    </ul>
+
+    <h2>⭐ ¿Por qué elegirnos?</h2>
+    <p>Ahorra tiempo, atención rápida y productos de alta calidad.</p>
+
+    <h2>📲 Contáctanos</h2>
+    <p>Atendemos en Bogotá y alrededores</p>
+
+    <a class="btn" href="https://wa.me/573122809866" target="_blank">
+        Escríbenos por WhatsApp
+    </a>
+
+</div>
+
+<!-- Botón flotante -->
+<a href="https://wa.me/573122809866" 
+style="position:fixed; bottom:20px; right:20px; background:#25D366; color:white; padding:15px; border-radius:50%; text-decoration:none; font-size:20px;">
+💬
+</a>
+
+</body>
+</html>
